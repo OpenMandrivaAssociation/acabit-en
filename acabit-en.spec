@@ -11,6 +11,7 @@ License:	GPL
 Group:		Sciences/Computer science
 Source0:	http://www.sciences.univ-nantes.fr/info/perso/permanents/daille/%{base_name}_en_%{version}.tar.bz2
 Url:		http://www.sciences.univ-nantes.fr/info/perso/permanents/daille/acabit.html
+Buildroot:	%{_tmppath}/%{name}-%{version}
 BuildArch:	noarch
 Obsoletes:	%{base_name}
 Provides:	%{base_name}
